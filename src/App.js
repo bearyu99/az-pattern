@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [keysRange, setKeysRange] = useState('qwerasdf');
-  const [reverse, setReverse] = useState(false);
+  const [reverse, setReverse] = useState(true);
   const [goalTime, setGoalTime] = useState(8);
   const [sfxToggle, setSfxToggle] = useState(true);
   const keyPressRef = useRef();
