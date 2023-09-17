@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.current {
+  @apply -translate-y-3 after:block after:absolute after:-top-1 after:w-12 after:h-[3.25rem] after:outline after:outline-offset-2 after:outline-amber-400 after:rounded-md
+}
+
+.current-reverse {
+  @apply translate-y-3 after:block after:absolute after:top-0 after:w-12 after:h-[3.25rem] after:outline after:outline-offset-2 after:outline-amber-400 after:rounded-md
+}
+
+.fail {
+  @apply bg-red-700;
+  @apply after:outline-red-500
+}
+
+.fail > span {
+  @apply bg-red-500;
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+ }
