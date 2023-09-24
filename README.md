@@ -11,4 +11,4 @@
 
 ## 미리보기
 
-![preview image](./preview.png)
+![preview image](./images/preview.png)
